@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>BITalk</title>
+{%endblock%}
+
+
+{% block body %}
+<div class ="container">
+    <h1>BITalk</h1>
+    <form method="post">
+        <input type="text" class="form-control" name="titel" id="titel" placeholder="Name: ">
+        <input type="number" class="form-control" name="price" id="price" placeholder="Number: ">
+        <button class="btn btn-success" type="submit">Ask</button>
+
+    </form>
+</div>
+{% endblock %}
+
+
+
+
+
+
+
+
+
